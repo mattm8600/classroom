@@ -17,6 +17,20 @@ public class BasicActivity {
     even if you don't follow my 'requirements'
      */
     public static void main(String[] args) {
-        //put your code in here!
+        while(1==1) {
+            for(int g = 0; g < 10; g++) {
+                String Peter = "Peter Is Gay";
+                String Notyet = "Peter is currently straight";
+                if(g>5){
+System.out.println(Peter);
+System.out.println("Hah Peter you are really " + Peter.substring(9));
+            }
+else {
+    System.out.println(Notyet);
+                }
+        }
+
+}
+
     }
 }

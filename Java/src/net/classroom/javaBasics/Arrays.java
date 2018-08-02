@@ -12,6 +12,9 @@ public class Arrays {
         arr[0] = 5;
         arr[1] = 16;
         arr[2] = -6;
+        arr[3] = 14;
+        arr[4] = 15;
+        arr[5] = 17;
         //now set the 3, 4, and 5 indices to an integer
 
 
@@ -19,6 +22,9 @@ public class Arrays {
         System.out.println("Third element: " + arr[2]);
 
         //now, using a for loop, print out every element of arr to the console
+ for(int i =0; i < 6; i++) {
+    System.out.println("this is the " + i + "th array value : " + arr[i]);
 
+        }
     }
 }
